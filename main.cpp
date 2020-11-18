@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
            "<span style=' font-size:8pt; font-weight:600;'>more description here</span>");
 
    dialog.setWebsiteName("application source code on github");
-   dialog.setWebsiteLink("https://sample.com");
+   dialog.setWebsiteLink("https://github.com/aksharlabs/dtkwebapp");
 
 
    MainWindow w;
