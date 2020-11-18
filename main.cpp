@@ -8,8 +8,7 @@
 DWIDGET_USE_NAMESPACE
 int main(int argc, char *argv[])
 {
-    DApplication::loadDXcbPlugin();
-    DApplication a(argc, argv);
+        DApplication a(argc, argv);
     DAboutDialog dialog;
     a.loadTranslator();
     a.setAttribute(Qt::AA_UseHighDpiPixmaps);
